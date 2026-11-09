@@ -1,5 +1,10 @@
-.ipynb_checkpoints/
 __pycache__/
-
-# nao enviar apostilas grandes
-*.pdf
+*.pyc
+.ipynb_checkpoints/
+*.tmp
+*.bag
+*.db3
+!models/
+!models/*.pt
+!models/*.json
+!*.png
